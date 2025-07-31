@@ -41,8 +41,9 @@ npm start server
 <h3>POST</h3>
 
   localhost:4000/api/Prop
-  Users are able to add new property and details into the database.
-  {
+  <p>Users are able to add new property and details into the database.</p>
+  <div>
+    {
    "PropertyName": "Bougainvillia",
    "location": "Montana",
    "Rent" : 20000,
@@ -50,26 +51,30 @@ npm start server
    "Bond" : 5000,
    "Tenant" : yes
   }
-
+  </div>
+  
   localhost:4000/api/Amount
-  User are able to search for a property and add the rent, levy and bond amounts. This is done monthly and the values are save on to a database. 
-  {
+  <p>User are able to search for a property and add the rent, levy and bond amounts. This is done monthly and the values are save on to a database.</p>
+  <div>
+     {
    "PropertyName": "Bougainvillia",
    "location": "Montana",
    "Rent" : 20000,
    "Levy" : 2000,
    "Bond" : 5000
   }
-
+  </div>
+ 
 <h3>GET</h3>
-<p>
+
   localhost:4000/api/getProperty
-  This gets all properties within the databse.
+  <p>This gets all properties within the databse.</p>
   
   localhost:4000/api/Detail
-  Users are able to search for a specific property. Once found within the databse is displays the total rent, levy, bond and profit. These values are calculated using the monthly amount entries.
-    {
+  <p>Users are able to search for a specific property. Once found within the databse is displays the total rent, levy, bond and profit. These values are calculated using the monthly amount entries.
+  </p>
+  <div> {
    "PropertyName": "Bougainvillia",
    "location": "Montana"
    }
-</p>
+  </div>
