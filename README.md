@@ -31,3 +31,20 @@
 </div>
 
 ###
+
+<h1> Back End</h1>
+Open integrated Terminal in server.js 
+npm start server
+<h2>POST Man</h2>
+<h3>POST</h3>
+localhost:4000/api/Prop
+
+localhost:4000/api/Amount
+<h3>GET</h3>
+localhost:4000/api/getProperty
+localhost:4000/api/Detail
+
+
+
+
+
