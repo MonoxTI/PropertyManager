@@ -33,13 +33,13 @@
 ###
 
 
-TESTING AEDUWNECI
+
 <h1> Back End</h1>
 <p>Open integrated Terminal in server.js </p>
 npm start server
 <h2>POST Man</h2>
 <h3>POST</h3>
-<p>
+
   localhost:4000/api/Prop
   Users are able to add new property and details into the database.
   {
@@ -60,7 +60,7 @@ npm start server
    "Levy" : 2000,
    "Bond" : 5000
   }
-</p>
+
 <h3>GET</h3>
 <p>
   localhost:4000/api/getProperty
