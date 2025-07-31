@@ -52,6 +52,7 @@ npm start server
    "Tenant" : yes
   }
   </div>
+
   
   localhost:4000/api/Amount
   <p>User are able to search for a property and add the rent, levy and bond amounts. This is done monthly and the values are save on to a database.</p>
@@ -69,6 +70,7 @@ npm start server
 
   localhost:4000/api/getProperty
   <p>This gets all properties within the databse.</p>
+
   
   localhost:4000/api/Detail
   <p>Users are able to search for a specific property. Once found within the databse is displays the total rent, levy, bond and profit. These values are calculated using the monthly amount entries.
