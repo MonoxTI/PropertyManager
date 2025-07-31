@@ -33,18 +33,41 @@
 ###
 
 <h1> Back End</h1>
-Open integrated Terminal in server.js 
+<p>Open integrated Terminal in server.js </p>
 npm start server
 <h2>POST Man</h2>
 <h3>POST</h3>
-localhost:4000/api/Prop
+<p>
+  localhost:4000/api/Prop
+  Users are able to add new property and details into the database.
+  {
+   "PropertyName": "Bougainvillia",
+   "location": "Montana",
+   "Rent" : 20000,
+   "Levy" : 2000,
+   "Bond" : 5000,
+   "Tenant" : yes
+  }
 
-localhost:4000/api/Amount
+  localhost:4000/api/Amount
+  User are able to search for a property and add the rent, levy and bond amounts. This is done monthly and the values are save on to a database. 
+  {
+   "PropertyName": "Bougainvillia",
+   "location": "Montana",
+   "Rent" : 20000,
+   "Levy" : 2000,
+   "Bond" : 5000
+  }
+</p>
 <h3>GET</h3>
-localhost:4000/api/getProperty
-localhost:4000/api/Detail
-
-
-
-
-
+<p>
+  localhost:4000/api/getProperty
+  This gets all properties within the databse.
+  
+  localhost:4000/api/Detail
+  Users are able to search for a specific property. Once found within the databse is displays the total rent, levy, bond and profit. These values are calculated using the monthly amount entries.
+    {
+   "PropertyName": "Bougainvillia",
+   "location": "Montana"
+   }
+</p>
