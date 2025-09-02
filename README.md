@@ -32,15 +32,12 @@
 
 ###
 <h1>Front End</h1>
-<div>
-  Created using the React framework.
-  To run the application
-  npm start server
-</div>
+<p>Open integrated Terminal in Client folder </p>
+npm start server
 
 
 <h1> Back End</h1>
-<p>Open integrated Terminal in server.js </p>
+<p>Open integrated Terminal in Server filder </p>
 npm start server
 <h2>POST Man</h2>
 <h3>POST</h3>
