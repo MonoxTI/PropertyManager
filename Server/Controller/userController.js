@@ -1,4 +1,5 @@
 import {PropDB,MonthDB,TotalDB} from '../models/datamodel.js';
+//npm start server
 
 //POST(200)
 export const EnterProp = async (req, res) =>{
