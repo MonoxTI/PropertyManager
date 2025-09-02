@@ -31,7 +31,12 @@
 </div>
 
 ###
-
+<h1>Front End</h1>
+<div>
+  Created using the React framework.
+  To run the application
+  npm start server
+</div>
 
 
 <h1> Back End</h1>
